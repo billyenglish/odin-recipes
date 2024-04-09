@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #FFF;
+    --secondary-color-1: #000;
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Parent Tag */
+
+body {
+    background: linear-gradient(rgb(0, 0, 0, .3), rgb(0, 0, 0, .3)), url("../images/vintage-old-rustic-cutlery-dark.jpg");
+    background-position: center;
+    background-image: cover;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+/* Header Section */
+
+header {
+    padding-top: 4em;
+    padding-bottom: 3rem;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--primary-color);
+    letter-spacing: 5px;
+}
+
+/* Main Section */
+
+.cake-image {
+    text-align: center;
+}
+
+#cake {
+    height: auto;
+    width: 450px;
+}
+
+/* Cake Description Section */
+
+figure {
+    padding: 4rem 0;
+}
+
+figcaption > h2 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding-top: 35px;
+}
+
+figcaption > p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+/* Ingredients Section */
+
+h3 {
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding-bottom: 36px;
+    text-transform: capitalize;
+}
+
+.ingredients-list {
+    padding-top: 1.5em;
+    list-style: none;
+}
+
+.ingredients-list li {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+/* Cooking Section */
+
+
+.cooking-section {
+    padding: 30px 0;
+}
+
+.cooking-section > h3 {
+    padding-top: 30px;
+}
+
+.cooking-list {
+    padding-top: 1.5em;
+}
+
+.cooking-list li {
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 2em;
+}
+
+.cooking-section a {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--secondary-color-1);
+}
+
+.cooking-section a:hover {
+    color: var(--secondary-color-1);
+    background-color: var(--primary-color);
+    border-color: var(--secondary-color-1);
+}
+
+.cooking-section div {
+    padding-top: 50px;
+}
+
+/* Footer Section */
+
+footer {
+    color: var(--primary-color);
+    font-size: 20px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
