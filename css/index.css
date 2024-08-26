@@ -21,6 +21,7 @@ body {
     background-image: cover;
     display: flex;
     flex-direction: column;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: center;
     width: 100%;
