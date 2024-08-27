@@ -1,3 +1,4 @@
 # Odin Recipes
 
-## Odin Recipes that contains following recipes:
+## Odin Recipes Webpage contains different recipes that you can change up your dining experience:
+
